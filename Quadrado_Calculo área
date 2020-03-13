@@ -1,0 +1,26 @@
+
+public class Calculoarea {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Quadrado Quadrado1 = new Quadrado ();
+		Quadrado1.altura = 30;
+		Quadrado1.base = 3;
+		System.out.println("A area do quadrado1 é:"+ Quadrado1.area());
+		
+		
+		Quadrado Quadrado2 = new Quadrado ();
+		Quadrado2.altura = 200;
+		Quadrado2.base = 50;
+		System.out.println("A area do quadrado2 é:"+Quadrado2.area());
+	
+		
+		
+
+	}
+
+}
