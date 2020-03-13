@@ -1,0 +1,23 @@
+
+public class Quadrado {
+	double base;
+	double altura;
+	double area;
+	
+	double area () {
+	return	area = base * altura;
+		
+		
+	}
+	
+	
+		
+	}
+		
+		
+		
+
+	
+	
+	
+	
