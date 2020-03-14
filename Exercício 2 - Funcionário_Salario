@@ -1,0 +1,29 @@
+ 
+public class Salario {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Funcionario Funcionario1 = new Funcionario ();
+		Funcionario1.nome = Pedro;
+		Funcionario1.SalarioBruto = 30000;
+		Funcionario1.Imposto = 25/100;
+	    System.out.println("seu salario liquido é:"+ Funcionario1.Salarioliquido());
+	    
+	    Funcionario Funcionario2 = new Funcionario ();
+		Funcionario2.nome = Vagner;
+		Funcionario2.SalarioBruto = 25000;
+		Funcionario2.Imposto = 25/100;
+	    System.out.println("seu salario liquido é:"+ Funcionario2.Salarioliquido());
+	    
+	    
+	    
+	    
+		
+
+	}
+
+}
