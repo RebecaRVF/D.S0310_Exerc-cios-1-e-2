@@ -1,0 +1,14 @@
+ublic class Funcionario {
+	String nome;
+	double SalarioBruto;
+	double Imposto;
+	double Salarioliquido;
+	
+	double salario (double imposto) {
+		return salario = SalarioBruto - Imposto (25/100);
+	
+	
+	}
+
+}
+
